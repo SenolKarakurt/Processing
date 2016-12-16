@@ -10,7 +10,7 @@ void setup(){
  toplam_ball = new ArrayList(); 
 
  for(int i = 0; i < 500; i++){
-   Vec3D orjin = new Vec3D(random(width),random(200),0); // oluştulacak top için konum belirlendi. 350->konum.x 350->konum.y
+   Vec3D orjin = new Vec3D(random(width),random(200),0); // oluştulacak top için konum belirlendi.
    toplar ball = new toplar(orjin); 
    toplam_ball.add(ball);
  }
